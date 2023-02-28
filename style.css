@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+a   {
+    color: rgb(19, 19, 19);
+    font-size: 22px;  
+}
+
+
+.logo {
+    padding-top: 10px;
+
+}
+
+.logo h2:hover {
+    color: crimson;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 12px;
+    
+}
+
+ul li:hover{
+    background-color: crimson;
+}
+
+.icon {
+    margin-right: 32px;
+    margin-top: 18px;
+    font-size: x-large;
+}
+
+/* End Nav */
+
+.hero {
+    display: grid;
+    min-height: 50vh;
+    place-content: center;
+    text-align: center;
+}
+
+.hero h1{
+    margin-bottom: 10px;
+    font-size: 44px;    
+    color: rgb(99, 99, 168);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.hero p{
+    padding-left: 34px;
+    font-size: 22px;
+    color: rgb(99, 99, 168);
+}
+
+/* BTN */
+
+.btn {
+    display: flex;
+    padding: 22px;
+    justify-content: center;
+}
+
+button {
+    margin-left: 22px;
+    background-color:white;
+    border-radius: 134px;
+    width: 120px;
+    height: 30px;
+    border: solid 1px #333;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color:teal;
+    border: solid 1px teal;
+}
+
+.btn-0 button {
+    background-color: black;
+    border: none;
+    border-radius: 34px;
+    color: white;
+    height: 30px;
+    width: 50px;
+    margin-top: 12px;
+}
+
+.btn-0 button:hover {
+    background-color: teal;
+    border: none;
+    border-radius: 34px;
+    color: white;
+    height: 30px;
+    width: 50px;
+    margin-top: 12px;
+}
+
+/* Grid Template */
+
+.grid-container {
+    grid-template-columns: 400px 400px 400px;
+    display: grid;
+    gap: 44px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.text p{
+    font-size: 18px;
+}
+
+.box-1 {
+    display: grid;
+    place-content: center;
+    background-color: rgb(20, 122, 114);
+    width: auto;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.box-1 h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.box-2 {
+    display: grid;
+    place-content: center;
+    background-color: blueviolet;
+    width: auto;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.box-2 h1 {
+    text-align: center;
+    color: white;
+}
+
+.box-3 {
+    display: grid;
+    place-content: center;
+    background-color: yellow;
+    width: auto;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.box-3 h1{
+    text-align: center;
+}
+
+span{
+    color: rgb(211, 109, 13);
+}
+
+.box-4 {
+    display: grid;
+    place-content: center;
+    background-color: orangered;
+    width: auto;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.box-4 h1{
+    text-align: center;
+    padding: 40px;
+}
+
+.box-5 {
+    display: grid;
+    place-content: center;
+    background-color: rgba(31, 31, 75, 0.726);
+    width: auto;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.box-5 h1{
+    text-align: center;
+    color: white;
+}
+
+.box-6 {
+    display: grid;
+    place-content: center;
+    background-color: wheat;
+    width: auto;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.box-6 h1 {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+.box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover, .box-5:hover, .box-6:hover:hover{
+    background-color: rgb(160, 131, 1);
+}
+
+@media screen and (max-width: 600px){
+    .grid-container {
+        width: 100%;
+        display:grid;
+        grid-template-columns: 300px;
+    }
+}
+.parte1
